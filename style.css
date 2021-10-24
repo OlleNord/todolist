@@ -11,14 +11,23 @@ header {
     background-color: rgb(255, 255, 255);
     border: solid black 1px;
 }
+#content:hover {
+    background-color: rgb(245, 245, 245);
+}
 #add-task {
     margin: 10px;
     border: solid black 1px;
+}
+#add-task:hover {
+    background-color: rgb(161, 255, 161);
 }
 #add-task input {
     margin: 10px;
     margin-right: 0px;
     border: solid black 1px;
+}
+#add-task #add-task:hover {
+    background-color: rgb(109, 255, 109);
 }
 #tasks {
     margin: 10px;
@@ -31,6 +40,16 @@ header {
 #tasks #task {
     line-height: 10px;
 }
-#tasks #task button {
+#tasks #task #removeBtn {
     margin-left: 10px;
+}
+#tasks #task #removeBtn:hover {
+    background-color: rgb(255, 85, 85);
+}
+#tasks #task #doneBtn {
+    margin-left: 10px;
+}
+#tasks #task #doneBtn:hover {
+    background-color: rgb(38, 255, 0);
+}
 }
