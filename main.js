@@ -21,7 +21,7 @@ function add_task() {
     task.appendChild(removeBtn);
     task.appendChild(doneBtn);
     removeBtn.innerHTML = "X";
-    doneBtn.innerHTML = "Y";
+    doneBtn.innerHTML = "✓";
     doneBtn.id = "doneBtn";
     removeBtn.id = "removeBtn";
 
